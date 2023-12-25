@@ -27,8 +27,20 @@ Install PyTorch.
 (pytorch_venv) $ conda install pytorch::pytorch torchvision torchaudio -c pytorch
 ```
 
+Test PyTorch.
+
+```shell
+(pytorch_venv) $ python quickstart_tutorial.py
+```
+
 Deactivate the environment.
 
 ```shell
 (pytorch_venv) $ conda deactivate
+```
+
+## Usage
+
+```shell
+(pytorch_venv) $ python quickstart_tutorial.py
 ```
